@@ -2,7 +2,7 @@
 
 Jednoduchý program na sčítanie zlomkov.
 
-Stiahnuť ho môžete [tu](https://www.google.com) alebo
+Stiahnuť ho môžete [tu](https://github.com/TekMike365/ScitacZlomkov/releases) alebo
 ho môžete skompilovať podľa [inštrukcií nižšie](#kompilácia-windows).
 
 ## Development
