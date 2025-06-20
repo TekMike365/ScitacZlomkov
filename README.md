@@ -19,7 +19,7 @@ pip install venv
 
 ```sh
 python3 -m venv .venv
-source ./venv/bin/activate
+source .venv/bin/activate
 ```
 
 > Deaktivovať virtuálne prostredie môžete s pomocou príkazu: `deactivate`
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 4. Spustite program :D
 
 ```sh
-python scicat_zlomkov.py
+python scitac_zlomkov.py
 ```
 
 ### Kompilácia (Windows)
@@ -41,5 +41,5 @@ python scicat_zlomkov.py
 Pre skompilovanie Sčítača Zlomkovov treba najprv nastaviť [virtuálne prostredie](#nastavenie-virtuálneho-prostredia).
 
 ```sh
-pyinstaller -F scitac_zlomkov.py -n ScitacZlomkov.exe 
+pyinstaller -F scitac_zlomkov.py -n ScitacZlomkov.exe
 ```
