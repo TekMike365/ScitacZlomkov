@@ -2,8 +2,7 @@
 
 Jednoduchý program na sčítanie zlomkov.
 
-Stiahnuť ho môžete [tu](https://github.com/TekMike365/ScitacZlomkov/releases) alebo
-ho môžete skompilovať podľa [inštrukcií nižšie](#kompilácia-windows).
+Sčítač zlomkov môžete skompilovať podľa [inštrukcií nižšie](#kompilácia-windows).
 
 ## Development
 
@@ -36,10 +35,10 @@ pip install -r requirements.txt
 python scitac_zlomkov.py
 ```
 
-### Kompilácia (Windows)
+### Kompilácia
 
 Pre skompilovanie Sčítača Zlomkovov treba najprv nastaviť [virtuálne prostredie](#nastavenie-virtuálneho-prostredia).
 
 ```sh
-pyinstaller -F scitac_zlomkov.py -n ScitacZlomkov.exe
+pyinstaller -F scitac_zlomkov.py -n ScitacZlomkov
 ```
