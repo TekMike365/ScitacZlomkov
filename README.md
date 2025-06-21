@@ -2,7 +2,7 @@
 
 Jednoduchý program na sčítanie zlomkov.
 
-Sčítač zlomkov môžete skompilovať podľa [inštrukcií nižšie](#kompilácia-windows).
+Sčítač zlomkov môžete skompilovať podľa [inštrukcií nižšie](#kompilácia-windows) alebo ho stiahnuť z [tu](https://github.com/TekMike365/ScitacZlomkov/releases).
 
 ## Development
 
@@ -14,11 +14,21 @@ Sčítač zlomkov môžete skompilovať podľa [inštrukcií nižšie](#kompilá
 pip install venv
 ```
 
-2. Vytvorte virtuálne prostredie a aktivujte ho
+2. Vytvorte virtuálne prostredie
 
 ```sh
 python3 -m venv .venv
-source .venv/bin/activate
+```
+
+2.1 aktivujte ho
+```sh
+source ./.venv/bin/activate  # Linux
+```
+```sh
+.\.venv\Scripts\activate.bat  # Windows cmd
+```
+```sh
+.\.venv\Scripts\Activate.PS1  # Windows PowerShell
 ```
 
 > Deaktivovať virtuálne prostredie môžete s pomocou príkazu: `deactivate`
@@ -40,5 +50,7 @@ python scitac_zlomkov.py
 Pre skompilovanie Sčítača Zlomkovov treba najprv nastaviť [virtuálne prostredie](#nastavenie-virtuálneho-prostredia).
 
 ```sh
-pyinstaller -F scitac_zlomkov.py -n ScitacZlomkov
+pyinstaller -Fw scitac_zlomkov.py -n ScitacZlomkov
 ```
+
+Skompilovaný program nájdete v priečinku `dist`.
