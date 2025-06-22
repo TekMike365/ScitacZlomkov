@@ -5,10 +5,10 @@ Jednoduchý program na sčítanie zlomkov.
 ![screenshot sčítača zlomkov](.github/assets/scitac_zlomkov_screenshot.png)
 
 ### Fičúry
-- **Sčitanie a Odčítanie zlomkov**
+- **Sčítanie a Odčítanie zlomkov**
 - **Hlásenie chýb** vo formáte
 - Po kliknutí na hlásenie chýb vás program **presunie na riadok s chybou**
-- **"Drag and Drop"** - keď zoberiete textový súbor a presunieťe ho nad okno Sčítača zlomkov,
+- **"Drag and Drop"** - keď zoberiete textový súbor a presuniete ho nad okno Sčítača zlomkov,
 súbor sa otvorí v programe. To čo tam máte už zadané sa vymaže.
 
 ## Stiahnutie
